@@ -1,9 +1,9 @@
-# lab_robot_ws
-this project use ros2 distro is humble.
+# Robot_ws
+this project use ros2 distro is foxy.
 # Getting started
 1.Clone the repo:
 ```
-git clone https://github.com/Entity014/lab_robot_ws.git
+git clone https://github.com/jirapat/lab_robot_ws.git
 ```
 2.Navigate to your workspace:
 ```
