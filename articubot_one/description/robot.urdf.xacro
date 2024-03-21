@@ -6,6 +6,7 @@
     <!--<xacro:include filename="ros2_control.xacro" />-->
     <xacro:include filename="cart.xacro" />
     <xacro:include filename="arm.xacro" />
+    <xacro:include filename="lidar.xacro" />
     
     <xacro:include filename="arm_tr.xacro" />
     <xacro:include filename="arm1_tr.xacro" />
