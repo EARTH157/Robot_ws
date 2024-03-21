@@ -3,11 +3,11 @@ this project use ros2 distro is foxy.
 # Getting started
 1.Clone the repo:
 ```
-git clone https://github.com/jirapat/lab_robot_ws.git
+git clone https://github.com/EARTH157/Robot_ws/tree/main
 ```
 2.Navigate to your workspace:
 ```
-cd ~/lab_robot_ws
+cd ~/Robot_ws
 ```
 3.Update dependencies:
 ```
@@ -24,13 +24,13 @@ colcon build
 # Operating Instructions
 After you build, remember to source the proper install folder...
 ```
-source ~/lab_robot_ws/install/local_setup.bash
+source ~/Robot_ws/install/local_setup.bash
 ```
 And then run the launch file...
 ```
-ros2 launch abu_description moveit.launch.py 
+ros2 launch articubot_one launch_sim.launch.py
 ```
 After that run the this file to control robot
 ```
-ros2 run abu_description teleop_twist_keyboard.py 
+ros2 run articubot_one controller.py
 ```
